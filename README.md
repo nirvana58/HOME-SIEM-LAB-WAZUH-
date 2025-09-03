@@ -57,25 +57,27 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 
 ### Installation Steps
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/wazuh-siem-homelab.git
-   cd wazuh-siem-homelab
+1. **Go to Wazuh.com**
+   Install the Wazuh Manager on your ubuntu machine 
    ```
-
-2. **Set up Virtual Machine**
-   ```bash
-   # Follow the VM setup guide
-   ./scripts/setup-vm.sh
+   curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
    ```
+   Once the Wazuh Manager is downloaded it'll show the below interfaces
+   <img width="1045" height="198" alt="Screenshot 2025-09-03 235514" src="https://github.com/user-attachments/assets/0b8b1345-fc10-45d1-8eac-c7400a2e43ed" />
 
-3. **Install Wazuh Manager**
+3. **Open your browser in ubuntu**
+   ```
+   https://<manager_ip_adress>:443
+   ```
+   Enter the above url in Browser(Modify the managers ip adress)
+   
+5. **Install Wazuh Manager**
    ```bash
    # Run on Ubuntu VM
    sudo ./scripts/install-wazuh-manager.sh
    ```
 
-4. **Install Wazuh Agent**
+6. **Install Wazuh Agent**
    ```powershell
    # Run on Windows host
    .\scripts\install-wazuh-agent.ps1
