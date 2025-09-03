@@ -2,7 +2,9 @@
 A SIEM(System Information and Event management) platform which is open source and free used for complete end to end monitoring of system information and events.
 # Wazuh SIEM Home Lab Project
 
-![Wazuh Logo](https://wazuh.com/uploads/2022/05/logo-wazuh-blue.png)
+
+<img width="224" height="76" alt="Screenshot 2025-09-03 235020" src="https://github.com/user-attachments/assets/1cf934af-6f2f-4108-83c5-c1364a46a8c5" />
+
 
 A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecurity learning and testing. This project showcases vulnerability detection, threat hunting, file integrity monitoring, and unified XDR/SIEM protection across endpoints.
 
