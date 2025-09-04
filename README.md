@@ -105,7 +105,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
     ```
     C:\Program Files (x86)\ossec-agent
     ```
-    check for configuration file in ossec0agent Directory
+    check for configuration file in ossec-agent Directory
 
 6. **Check  your Wazuh Dashboard**
    A similar inetrface will appear
@@ -118,7 +118,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 
 ## 📋 Features Implemented
 
-### ✅ Core Features
+###  Core Features
 - [x] File Integrity Monitoring (FIM)
 - [x] Real-time log analysis
 - [x] Vulnerability detection
@@ -126,7 +126,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 - [x] Rootkit detection
 - [x] Active response capabilities
 
-### 🧪 Tested Scenarios
+###  Tested Scenarios
 - [x] File creation/deletion monitoring
 - [x] Registry changes detection
 - [x] Process monitoring
@@ -136,7 +136,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 
 
 
-## 🔧 Configuration Highlights
+##  Configuration Highlights
 
 ### Wazuh Manager Configuration
 - **Port**: 1514 (Agent communication)
@@ -171,7 +171,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 - **Medium Priority**: Failed logins, configuration changes
 - **Low Priority**: File modifications, system updates
 
-## 🧪 Testing Scenarios
+##  Testing Scenarios
 
 ### File Integrity Monitoring Test
 1. Create test folder: `C:\TestFolder`
@@ -186,7 +186,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 - File deletion alert
 - Metadata changes logged
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 | Metric | Value |
 |--------|-------|
@@ -196,7 +196,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 | **CPU Usage (Manager)** | < 10% |
 | **RAM Usage (Manager)** | ~2GB |
 
-## 🔐 Security Considerations
+##  Security Considerations
 
 - Enable TLS encryption for agent-manager communication
 - Implement proper firewall rules
@@ -204,7 +204,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 - Monitor manager system resources
 - Update signatures and rules regularly
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 1. **Agent Connection Issues**
@@ -222,13 +222,13 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
    - Check log levels
    - Verify agent reporting
 
-## 📚 Learning Resources
+##  Learning Resources
 
 - [Official Wazuh Documentation](https://documentation.wazuh.com/)
 - [SIEM Best Practices](https://www.sans.org/reading-room/whitepapers/logging/siem-best-practices-33528)
 - [Threat Hunting with Wazuh](https://wazuh.com/blog/threat-hunting-with-wazuh/)
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -237,13 +237,13 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 5. Create a Pull Request
 
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Wazuh team for the excellent open-source SIEM platform
 - Security community for sharing knowledge and best practices
 - Oracle VirtualBox team for reliable virtualization
 
-## 📞 Contact
+##  Contact
 
 - **Project Maintainer**: Lakshmeesha Suvarna
 - **Email**: laksmeesha.s.999@gmail.com
