@@ -26,7 +26,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - **Security Monitoring**: Implement comprehensive endpoint monitoring
 - **Threat Detection**: Real-time threat hunting and vulnerability assessment
@@ -34,7 +34,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 - **Log Analysis**: Centralized log collection and analysis
 - **Incident Response**: Alert generation and response workflows
 
-## 🛠️ Technology Stack
+## 🛠 Technology Stack
 
 | Component | Technology | Version |
 |-----------|------------|---------|
@@ -46,7 +46,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 | **Database** | Elasticsearch | Bundled |
 | **Web Interface** | Wazuh Dashboard | Bundled |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -116,7 +116,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 
 
 
-## 📋 Features Implemented
+##  Features Implemented
 
 ###  Core Features
 - [x] File Integrity Monitoring (FIM)
