@@ -70,7 +70,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
    ```
    https://<manager_ip_adress>:443
    ```
-   Enter the above url in Browser(Modify the managers ip adress)
+   Enter the above url in Browser(Modify the managers ip address)
 
 3. **Register your Agent**
    
