@@ -34,7 +34,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 - **Log Analysis**: Centralized log collection and analysis
 - **Incident Response**: Alert generation and response workflows
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 | Component | Technology | Version |
 |-----------|------------|---------|
