@@ -109,10 +109,12 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 
 5. **Check  your Wazuh Dashboard**
  
-   A similar inetrface will appear
+   A similar Inetrface will appear
    
    <img width="1837" height="968" alt="bd10bd16-40db-442e-a965-4a318111e74a" src="https://github.com/user-attachments/assets/c4b2a7a8-11cc-4efe-b3f4-b95c9e72d133" />
-   <img width="1837" height="968" alt="bc603d00-5ac3-48ea-ba9b-c5ea527c6284" src="https://github.com/user-attachments/assets/8d4be56c-a2b4-4acc-a419-4c76d844d911" />
+   
+   <img width="1837" height="968" alt="wazuh" src="https://github.com/user-attachments/assets/d3a7407e-53d3-4433-9a74-3ee4a9c98ba3" />
+
 
 
 
