@@ -82,10 +82,13 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 5. **Setup a Wazuh agent on your windows**
     Setup using the GUI:
     Download the windows agent installer on Installationguide/Wazuh agent Section
+   
     <img width="694" height="48" alt="Screenshot 2025-09-04 000515" src="https://github.com/user-attachments/assets/ff28b3e6-cee9-4f09-9870-9937527b6c97" />
 
     A Window will appear
+   
     <img width="419" height="373" alt="Screenshot 2025-09-04 000610" src="https://github.com/user-attachments/assets/62a58fb4-e2b8-4b06-8270-67e7a2215a00" />
+    
     Enter Managers ip address and auth key(request from manager(specified in 4th step))
 
     Setup  using the CLI :
@@ -98,8 +101,9 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
     check logs  and configuration files for any error during installation
 
 
-6. **Check  your Wazuh Dashboard**
+7. **Check  your Wazuh Dashboard**
    A similar inetrface will appear
+   
    <img width="1837" height="968" alt="bd10bd16-40db-442e-a965-4a318111e74a" src="https://github.com/user-attachments/assets/c4b2a7a8-11cc-4efe-b3f4-b95c9e72d133" />
    <img width="1837" height="968" alt="bc603d00-5ac3-48ea-ba9b-c5ea527c6284" src="https://github.com/user-attachments/assets/99c55771-eece-4afb-96af-26d051b1d3cf" />
 
