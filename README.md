@@ -57,8 +57,8 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 
 ### Installation Steps
 
-1. **Go to Wazuh.com**
-   Install the Wazuh Manager on your ubuntu machine 
+1. **Install the Wazuh Manager**
+   Go to Terminal and Enter this Command 
    ```
    curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
    ```
@@ -70,18 +70,40 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
    https://<manager_ip_adress>:443
    ```
    Enter the above url in Browser(Modify the managers ip adress)
-   
-5. **Install Wazuh Manager**
-   ```bash
-   # Run on Ubuntu VM
-   sudo ./scripts/install-wazuh-manager.sh
-   ```
 
-6. **Install Wazuh Agent**
-   ```powershell
-   # Run on Windows host
-   .\scripts\install-wazuh-agent.ps1
+4. **Register your Agent**
+   Enter the below command and register your Agent
    ```
+   sudo /var/ossec/bin/manage_agents
+   ```
+   <img width="641" height="337" alt="wazuh agent register" src="https://github.com/user-attachments/assets/e0951905-2fa0-4dfd-a4d7-d4c94990d03c" />
+
+   
+5. **Setup a Wazuh agent on your windows**
+    Setup using the GUI:
+    Download the windows agent installer on Installationguide/Wazuh agent Section
+    <img width="694" height="48" alt="Screenshot 2025-09-04 000515" src="https://github.com/user-attachments/assets/ff28b3e6-cee9-4f09-9870-9937527b6c97" />
+
+    A Window will appear
+    <img width="419" height="373" alt="Screenshot 2025-09-04 000610" src="https://github.com/user-attachments/assets/62a58fb4-e2b8-4b06-8270-67e7a2215a00" />
+    Enter Managers ip address and auth key(request from manager(specified in 4th step))
+
+    Setup  using the CLI :
+    Download the windows agent installer
+    Enter the below command on powershell
+
+    ```powershell
+    .\wazuh-agent-4.12.0-1.msi /q WAZUH_MANAGER="<managers_ip>"
+    ```
+    check logs  and configuration files for any error during installation
+
+
+6. **Check  your Wazuh Dashboard**
+   A similar inetrface will appear
+   <img width="1837" height="968" alt="bd10bd16-40db-442e-a965-4a318111e74a" src="https://github.com/user-attachments/assets/c4b2a7a8-11cc-4efe-b3f4-b95c9e72d133" />
+   <img width="1837" height="968" alt="bc603d00-5ac3-48ea-ba9b-c5ea527c6284" src="https://github.com/user-attachments/assets/99c55771-eece-4afb-96af-26d051b1d3cf" />
+
+
 
 ## 📋 Features Implemented
 
@@ -99,7 +121,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 - [x] Process monitoring
 - [x] Network connection tracking
 - [x] Failed login attempts
-- [x] Privilege escalation detection
+
 
 
 
@@ -203,9 +225,6 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 4. Push to the branch
 5. Create a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -215,9 +234,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Project Maintainer**: [Your Name]
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile]
+- **Project Maintainer**: Lakshmeesha Suvarna
+- **Email**: laksmeesha.s.999@gmail.com
+- **LinkedIn**: www.linkedin.com/in/lakshmeesha-suvarna-23037824a
 
 ---
 
