@@ -108,6 +108,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
     check for configuration file in ossec-agent Directory
 
 6. **Check  your Wazuh Dashboard**
+7. 
    A similar inetrface will appear
    
    <img width="1837" height="968" alt="bd10bd16-40db-442e-a965-4a318111e74a" src="https://github.com/user-attachments/assets/c4b2a7a8-11cc-4efe-b3f4-b95c9e72d133" />
