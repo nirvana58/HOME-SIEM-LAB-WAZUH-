@@ -58,6 +58,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
 ### Installation Steps
 
 1. **Install the Wazuh Manager**
+   
    Go to Terminal and Enter this Command 
    ```
    curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
@@ -65,13 +66,13 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
    Once the Wazuh Manager is downloaded it'll show the below interfaces
    <img width="1045" height="198" alt="Screenshot 2025-09-03 235514" src="https://github.com/user-attachments/assets/0b8b1345-fc10-45d1-8eac-c7400a2e43ed" />
 
-3. **Open your browser in ubuntu**
+2. **Open your browser in ubuntu**
    ```
    https://<manager_ip_adress>:443
    ```
    Enter the above url in Browser(Modify the managers ip adress)
 
-4. **Register your Agent**
+3. **Register your Agent**
    
    Enter the below command and register your Agent
    ```
@@ -80,7 +81,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
    <img width="641" height="337" alt="wazuh agent register" src="https://github.com/user-attachments/assets/e0951905-2fa0-4dfd-a4d7-d4c94990d03c" />
 
    
-5. **Setup a Wazuh agent on your windows**
+4. **Setup a Wazuh agent on your windows**
    
     Setup using the GUI:
     Download the windows agent installer on Installationguide/Wazuh agent Section
@@ -101,7 +102,10 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
     .\wazuh-agent-4.12.0-1.msi /q WAZUH_MANAGER="<managers_ip>"
     ```
     check logs  and configuration files for any error during installation
-
+    ```
+    C:\Program Files (x86)\ossec-agent
+    ```
+    check for configuration file in ossec0agent Directory
 
 6. **Check  your Wazuh Dashboard**
    A similar inetrface will appear
