@@ -93,7 +93,7 @@ A comprehensive home lab setup demonstrating Wazuh SIEM deployment for cybersecu
    
     <img width="419" height="373" alt="Screenshot 2025-09-04 000610" src="https://github.com/user-attachments/assets/62a58fb4-e2b8-4b06-8270-67e7a2215a00" />
     
-    Enter Managers ip address and auth key(request from manager(specified in 4th step))
+    Enter Managers ip address and auth key(request from manager(specified in 3rd step))
 
     Setup  using the CLI :
     Download the windows agent installer
